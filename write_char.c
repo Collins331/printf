@@ -1,5 +1,4 @@
-#include main.h
-
+#include "main.h"
 /**
 * write_char- writes the character to stdout
 * @c : character expected to print
