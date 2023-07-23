@@ -7,5 +7,5 @@
 #include<string.h>
 
 int _printf(const char *format, ...);
-
+int write_char(char c);
 #endif
