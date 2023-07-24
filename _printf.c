@@ -18,9 +18,7 @@ int _printf(const char *format, ...)
 		}
 		else if (format[i + 1] == 'c')
 		{
-			int cl = va_arg(all, int);
-
-			write_char(cl);
+			write_char(va_arg(all, int));
 			i++;
 		}
 		else if (format[i + 1] == '%')
