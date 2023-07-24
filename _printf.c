@@ -37,8 +37,8 @@ int _printf(const char *format, ...)
 			count += (count - 1);
 		}
 			count += 1;
-	}
 	va_end(all);
+	}
 	return (count);
 }
 
