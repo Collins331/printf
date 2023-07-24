@@ -11,5 +11,6 @@ int print_int(int val);
 void printer(char screen[], int *index);
 int _printf(const char *format, ...);
 int write_char(char s);
+int pu_ts(const char *s);
 
 #endif
